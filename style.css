@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+
+/* Navigation Bar */
+
+.nav-item a {
+    color: hsl(230, 29%, 20%);
+    font-family: "barlow condensed", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding: 1.2rem;
+}
+
+.nav-item {
+    padding: 1% 0;
+}
+
+.whole-navbar {
+    padding-right: 3rem;
+}
+
+.navigation-bar {
+    padding: 2rem 0;
+}
+
+.nav-item .login {
+    color: hsl(231, 7%, 65%);
+}
+
+.dot {
+    opacity: 70%;
+    padding: 0 1rem;
+    margin: 0 0.5rem;
+}
+
+#logo {
+    display: inline-block;
+}
+
+.fas {
+    color: grey;
+}
+
+.design-square {
+    height: 60%;
+    width: 50%;
+    background-color: hsl(207, 33%, 95%);
+    border-bottom-left-radius: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.navbar-toggler:focus,.navbar-toggler:active{
+    outline: none !important;
+}
+
+hr{
+    display: none;
+}
+
+
+/* Main section Left */
+
+
+
+
+.main {
+    padding-top: 5%;
+}
+
+
+h2 {
+    color: hsl(231, 7%, 65%);
+    display: inline-block;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+}
+
+
+.badge {
+    background-color: hsl(230, 29%, 20%);
+    border-radius: 20px;
+    font-size: 1rem;
+}
+
+
+h1 {
+    color: hsl(230, 29%, 20%);
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 800;
+    font-size: 4rem;
+}
+
+
+h3 {
+    color: hsl(230, 11%, 40%);
+    font-size: 1rem;
+    font-weight: 400;
+    width: 50%;
+    padding: 1.5rem 0 3rem;
+}
+
+
+.btn {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    background-color: hsl(0, 100%, 68%) !important;
+    color: white;
+    float: left;
+    vertical-align: middle;
+
+}
+
+.btn:hover {
+    color: white;
+    background-color: hsl(0, 100%, 68%);
+    opacity: 70%;
+}
+
+.live-preview {
+    color: hsl(231, 7%, 65%);
+    font-weight: 400;
+    letter-spacing: 0.2rem;
+    line-height: 50px;
+    padding-left: 1rem;
+}
+
+/* Main section Right */
+
+.main-container {}
+
+
+
+.main img {
+    width: 140%;
+    position: relative;
+}
+
+
+/* responsive */
+
+@media (max-width:995px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .whole-navbar {
+        width: 90%;
+        background-color: white;
+        z-index: 1;
+        text-align: center;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        padding-right: 0;
+        position: absolute;
+        
+        top: 100%;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .main img {
+        padding-bottom: 3rem;
+        width: 140%;
+    }
+
+    h3 {
+        width: 70%;
+    }
+
+    hr{
+        display: inline;
+        line-height: 3px;
+        width: 80%;
+        margin-bottom: 8px;
+    }
+
+    .nav-item:last-child{
+        padding-bottom: 1rem;
+    }
+
+    .dot{
+        display: none;
+    }
+
+}
+
+
+.attribution {
+    margin-top: 50px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
